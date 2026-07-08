@@ -1,4 +1,0 @@
-sudo pacman -S pavucontrol nemo network-manager-applet ttf-nerd-fonts-symbols ttf-iosevka-nerd polybar i3wm
-sudo pacman -S rofi
-sudo pacman -S flameshot python-i3ipc python-gobject gtk3 python-psutil
-yay -S rofi-power-menu

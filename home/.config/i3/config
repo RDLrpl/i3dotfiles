@@ -16,6 +16,7 @@ exec_always --no-startup-id setxkbmap -layout us,ru -option grp:alt_shift_toggle
 exec_always --no-startup-id "${HOME}/.config/polybar/launch.sh"
 exec_always --no-startup-id ~/.config/polybar/scripts/i3-icon-bar.py
 exec_always --no-startup-id nm-applet --indicator
+exec_always --no-startup-id sbxkb
 
 exec_always --no-startup-id picom &
 exec_always --no-startup-id dunst &
